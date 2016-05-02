@@ -1,0 +1,129 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    color: #f7f7d6;         
+    background: #352b31;
+    background: #242a46;
+    font-family: Lato, sans-serif;      
+    border-color: #5d4f57;
+}
+
+a
+{
+    color: #96cf85;
+}
+
+ul#nav > li, .app-list ul li
+{
+    list-style-type:none;
+    float: left;
+    margin-right: 10px;
+}
+
+ul#nav > li:after
+{
+    content: "\00a0\00a0\00a0/"
+}
+
+ul#nav > li:last-child:after
+{
+    content: ""
+}
+
+.container
+{
+    width: 960px;
+    margin: auto;      
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+.app-list ul li
+{      
+    width: 300px;
+    height: 400px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.app-list ul li:nth-child(3n+3)
+{
+    margin-right: 0px;
+}
+
+.app-tile
+{
+    text-align: center;      
+}
+
+.app-tile a
+{
+    color: #96cf85;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;      
+}
+
+.app-tile:hover
+{
+    border: 1px solid #f7f7d6;    
+}
+
+p.app_support
+{
+    padding: 2px;
+    margin-top: 2px;
+    color: #4b6d85;
+}
+
+.header
+{
+    width: 440px;
+    height: 480px;
+    margin: auto;
+    background: url("../img/vivek_logo2.png") no-repeat;
+    text-align: center;
+}
+
+.header:hover
+{
+    background: url("../img/vivek_stickman2.png") no-repeat;
+}
+
+.footer
+{
+    border-color: #5d4f57 !important;
+    border-top: 1px solid;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;  
+}
+
+a.app_name_link
+{
+    text-transform: lowercase;
+}
+
+img.app_tile_image
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    -webkit-filter: hue-rotate(90deg);
+}
+
+img.app_tile_image:hover
+{
+    -webkit-filter: none;
+}
