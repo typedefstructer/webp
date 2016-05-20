@@ -101,11 +101,7 @@ p.app_support
 .footer
 {
     border-color: #5d4f57 !important;
-    border-top: 1px solid;
-    position: absolute;
-    bottom:0px;
-    right: 0px;
-    left: 0px;
+    border-top: 1px solid;  
     text-align: center;  
 }
 
